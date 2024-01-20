@@ -1,4 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Museum Booking App
+
+This is the repository for the "Museum Booking App," a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). This application demonstrates how to build a museum booking system using Next.js and the Timerise API.
+
+## Tutorial
+
+For a detailed guide on how this application was built, visit our tutorial: [Building a Museum Booking App with Next.js and Timerise API](https://timerise.io/tutorial-building-a-museum-booking-app-with-next-js-and-timerise-api/). The tutorial covers everything from setting up the project to deploying it with Vercel, making it a great resource for both beginners and experienced developers.
 
 ## Getting Started
 
@@ -34,3 +40,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## License
+This project is open-sourced under the MIT License. See the LICENSE file for more details.
