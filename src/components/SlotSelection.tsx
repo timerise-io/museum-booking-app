@@ -31,15 +31,16 @@ const SlotSelection = ({ serviceId }: { serviceId: string }) => {
   };
 
   return (
-    <div className="p-4">
-      <h2 className="text-lg font-semibold">Select a Slot</h2>
-      <ul>
+    <div className="p-4 max-w-md mx-auto">
+      <h2 className="text-2xl font-bold text-center text-white-800 mb-4">Select a Slot</h2>
+      <ul className="list-none space-y-3">
         {data.service.slots.map((slot: { slotId: string, dateTimeFrom: Date }) => (
-          <li key={slot.slotId} className="my-2">
+          <li key={slot.slotId} className="flex justify-between items-center p-3 border rounded-lg shadow-sm">
+            <span className="text-white-600">{new Date(slot.dateTimeFrom).toLocaleString()}</span>
             <button
-              className={`p-2 border ${selectedSlot === slot.slotId ? 'border-blue-500' : 'border-gray-300'}`}
+              className={`px-4 py-2 rounded-lg text-black ${selectedSlot === slot.slotId ? 'bg-blue-500' : 'bg-gray-300'}`}
               onClick={() => handleSlotSelect(slot.slotId)}>
-              {new Date(slot.dateTimeFrom).toLocaleString()}
+              Select
             </button>
           </li>
         ))}
